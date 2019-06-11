@@ -1,0 +1,49 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "sourceMap": true,
+    "allowJs": true,
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmitHelpers": true,
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    "noEmit": true,
+    "noImplicitAny": false,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "jsx": "preserve",
+    "typeRoots": [
+      "node_modules/@types",
+      "../../design-system/infrastructure/src/types"
+    ],
+    "paths": {
+      "*": [
+        "../../design-system/infrastructure/src/*",
+        "../../design-system/core/src/*",
+        "../../design-system/themes/src/*"
+      ],
+      "@design-system/infrastructure/*": [
+        "../../design-system/infrastructure/src/*"
+      ],
+      "@design-system/core/*": ["../../design-system/core/src/*"],
+      "@design-system/themes/*": ["../../design-system/themes/src/*"]
+    },
+    "lib": ["dom", "esnext"]
+  },
+  "exclude": ["**/node_modules", "**/dist"],
+  "include": [
+    "src",
+    "../../design-system/infrastructure/src",
+    "../../design-system/core/src",
+    "../../design-system/themes/src"
+  ]
+}

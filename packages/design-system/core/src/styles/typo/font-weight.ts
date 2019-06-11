@@ -1,0 +1,11 @@
+export const FONT_WEIGHT = {
+  TYPO_FONT_WEIGHT_H1: 'bold',
+  TYPO_FONT_WEIGHT_H2: 'bold',
+  TYPO_FONT_WEIGHT_H3: 'bold',
+  TYPO_FONT_WEIGHT_H4: 'bold',
+  TYPO_FONT_WEIGHT_BODY_L: 'normal',
+  TYPO_FONT_WEIGHT_BODY_M: 'normal',
+  TYPO_FONT_WEIGHT_BODY_S: 'normal',
+  TYPO_FONT_WEIGHT_LINK: '600',
+  TYPO_FONT_WEIGHT_QUOTE: 'normal',
+};

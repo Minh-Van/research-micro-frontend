@@ -1,0 +1,31 @@
+{
+	"folders": [
+    {
+      "name": "applications/my-site",
+			"path": "packages/applications/my-site"
+    },
+    {
+      "name": "modules/product-list",
+			"path": "packages/modules/product-list"
+    },
+    {
+      "name": "modules/product-detail",
+			"path": "packages/modules/product-detail"
+		},
+		{
+      "name": "design-system/core",
+			"path": "packages/design-system/core"
+		},
+		{
+      "name": "design-system/infrastructure",
+			"path": "packages/design-system/infrastructure"
+		},
+		{
+      "name": "design-system/themes",
+			"path": "packages/design-system/themes"
+		}
+	],
+	"settings": {
+		"typescript.tsdk": "applications/my-site/node_modules/typescript/lib"
+	}
+}

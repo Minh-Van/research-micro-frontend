@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "sourceMap": true,
+    "allowJs": true,
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmitHelpers": true,
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    "noEmit": true,
+    "noImplicitAny": false,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "jsx": "preserve",
+    "typeRoots": ["node_modules/@types", "../infrastructure/src/types"],
+    "paths": {
+      "*": ["../infrastructure/src/*"],
+      "@design-system/infrastructure/*": ["../infrastructure/src/*"]
+    },
+    "lib": ["dom", "esnext"]
+  },
+  "exclude": ["**/node_modules", "**/dist"],
+  "include": ["src", "../infrastructure/src"]
+}

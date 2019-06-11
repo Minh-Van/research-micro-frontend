@@ -1,0 +1,38 @@
+{
+  "breadcrumbs.enabled": true,
+  "search.exclude": {
+      "**/.cache": true,
+      "**/node_modules": true,
+      "**/dist": true
+  },
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+      {
+      "language": "javascript",
+      "autoFix": true
+      },
+      {
+      "language": "javascriptreact",
+      "autoFix": true
+      },
+      {
+      "language": "typescript",
+      "autoFix": true
+      },
+      {
+      "language": "typescriptreact",
+      "autoFix": true
+      }
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "javascript.format.enable": false,
+  "tslint.enable": false,
+  "css.validate": false,
+  "scss.validate": false
+}
+  

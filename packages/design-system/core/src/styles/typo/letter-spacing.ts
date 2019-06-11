@@ -1,0 +1,3 @@
+export const LETTER_SPACING = {
+  TYPO_LETTER_SPACING_DEFAULT: '-0.005em',
+};
